@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-button:hover {
+  background: linear-gradient(to left, #e43a15, #ad13fb);
+}
+
+.web-stroke {
+  color: white;
+  text-transform: uppercase;
+  stroke-width: 0.8;
+  stroke: #8850f79c;
+  fill: transparent;
+  font-size: 240px;
+  display: inline-block;
+}
+
