@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Strength from "./components/Strength";
+import Project from "./components/Project";
+import Certificate from "./components/Certificate";
 
 const App = () => {
   return (
@@ -12,6 +16,10 @@ const App = () => {
       <Hero />
       <Marquee />
       <About />
+      <Skills />
+      <Strength />
+      <Project />
+      <Certificate />
     </div>
   );
 };
