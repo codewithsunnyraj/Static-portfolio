@@ -6,25 +6,25 @@ export default function MarqueeText() {
     <div className="py-4 md:pt-14 border-b border-[#475569]">
       <Marquee speed={50} pauseOnHover={true} gradient={false}>
         <div>
-          <img src={assets.amazon} className="w-44  mx-14" alt="" />
+          <img src={assets.amazon} className="md:w-44 w-24  mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.linkedin} className="w-44 mx-14" alt="" />
+          <img src={assets.linkedin} className="md:w-44 w-24 mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.goggle} className="w-44 mx-14" alt="" />
+          <img src={assets.goggle} className="md:w-44 w-24 mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.skype} className="w-44 mx-14" alt="" />
+          <img src={assets.skype} className="md:w-44 w-24 mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.netflic} className="w-44 mx-14" alt="" />
+          <img src={assets.netflic} className="md:w-44 w-24 mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.paypal} className="w-44 mx-14" alt="" />
+          <img src={assets.paypal} className="md:w-44 w-24 mx-14" alt="" />
         </div>
         <div>
-          <img src={assets.samsung} className="w-44 mx-14" alt="" />
+          <img src={assets.samsung} className="md:w-44 w-24 mx-14" alt="" />
         </div>
       </Marquee>
     </div>

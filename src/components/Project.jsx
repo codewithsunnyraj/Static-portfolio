@@ -3,13 +3,13 @@ import { assets } from "../constant/constant";
 
 const Project = () => {
   return (
-    <div className="py-2 md:py-24">
+    <div className="py-2 px-4 md:px-0 md:py-24">
       <div className="pb-2 md:pb-16">
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-6xl bg-clip-text text-transparent  text-xl">
           My Projects
         </h2>
       </div>
-      <div className="grid lg:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="border-t-0 border-b group relative overflow-hidden transition-all rounded-md hover:duration-300 hover:border-b-[#8750f6e3] p-3">
           <a href="https://yssteps.com/" target="_blank">
             <img

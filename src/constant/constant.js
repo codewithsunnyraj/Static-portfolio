@@ -50,6 +50,53 @@ export const assets = {
   skype,
   html,
 };
+export const skills = [
+  {
+    id: 1,
+    image: html,
+    title: "HTML",
+  },
+  {
+    id: 2,
+    image: css,
+    title: "CSS",
+  },
+  {
+    id: 3,
+    image: js,
+    title: "Javascript",
+  },
+  {
+    id: 4,
+    image: react,
+    title: "Reactjs",
+  },
+  {
+    id: 5,
+    image: nodejs,
+    title: "Nodejs",
+  },
+  {
+    id: 6,
+    image: express,
+    title: "Expressjs",
+  },
+  {
+    id: 7,
+    image: github,
+    title: "Github",
+  },
+  {
+    id: 8,
+    image: mongo,
+    title: "Mongodb",
+  },
+  {
+    id: 7,
+    image: php,
+    title: "PhP",
+  },
+];
 
 export const certificate = [
   {
@@ -62,6 +109,6 @@ export const certificate = [
     title: "Nodejs",
     description:
       "js is an open-source JavaScript server environment built on Chrome's V8 engine. It is open-source and free and runs on various platforms like Windows, Linux, Unix, MacOS, etc.",
-    img: c1,
+    img: c2,
   },
 ];

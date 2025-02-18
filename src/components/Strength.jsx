@@ -2,7 +2,7 @@ import React from "react";
 
 const Strength = () => {
   return (
-    <div className="">
+    <div className="px-4 px-lg-0">
       <div className="pb-2 md:pb-16">
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-6xl bg-clip-text text-transparent  text-xl">
           My Strengths
@@ -12,7 +12,7 @@ const Strength = () => {
           tools in my toolkit.
         </p>
       </div>
-      <div className="grid gap-4 lg:grid-cols-3 py-4">
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 py-4">
         <div className="p-4 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
@@ -33,7 +33,7 @@ const Strength = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 relative border border-slate-700 rounded-sm">
+        <div className="p-4 mt-10 md:mt-0 lg:mt-lg-0 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
               <h2
@@ -53,7 +53,7 @@ const Strength = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 relative border border-slate-700 rounded-sm">
+        <div className="p-4 mt-10 md:mt-0 lg:mt-lg-0 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
               <h2
@@ -74,7 +74,7 @@ const Strength = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 mt-3 md:mt-14 relative border border-slate-700 rounded-sm">
+        <div className="p-4 mt-10  lg:mt-14 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
               <h2
@@ -94,7 +94,7 @@ const Strength = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 mt-3 md:mt-14 relative border border-slate-700 rounded-sm">
+        <div className="p-4 mt-10 md:mt-14 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
               <h2
@@ -114,7 +114,7 @@ const Strength = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 mt-3 md:mt-14 relative border border-slate-700 rounded-sm">
+        <div className="p-4 mt-10  md:mt-14 relative border border-slate-700 rounded-sm">
           <div>
             <div className="absolute top-[-40px] right-2 bg-black w-20 flex justify-center items-center rounded-full  h-20 border">
               <h2

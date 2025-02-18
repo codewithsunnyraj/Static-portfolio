@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="py-6 md:py-20">
+    <div className="py-6 px-4 md:px-0 md:py-20">
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="px-6 pt-8 pb-10 bg-[#140C1C]">
           <div>
@@ -17,7 +17,7 @@ const Contact = () => {
           <div>
             <form action="">
               <div className="md:flex my-5 justify-between gap-5">
-                <div className="w-1/2">
+                <div className="md:w-1/2 my-3 my-lg-0">
                   <input
                     type="text"
                     placeholder="Enter First Name"
@@ -26,7 +26,7 @@ const Contact = () => {
                     id=""
                   />
                 </div>
-                <div className="w-1/2">
+                <div className="md:w-1/2 my-3 my-lg-0">
                   <input
                     type="text"
                     placeholder="Enter Last Name"
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="md:flex my-5 justify-between gap-5">
-                <div className="w-1/2">
+                <div className="md:w-1/2 my-3 my-lg-0">
                   <input
                     type="text"
                     placeholder="Enter Email"
@@ -46,7 +46,7 @@ const Contact = () => {
                     id=""
                   />
                 </div>
-                <div className="w-1/2">
+                <div className="md:w-1/2 my-3 my-lg-0">
                   <input
                     type="text"
                     placeholder="Enter Phone Number"

@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="w-full px-2 md:px-32 relative bg-black">
-      <div className="absolute right-0  w-[250px] h-[250px] blur-xl bg-gradient-to-t z-10 from-[#1B1032]"></div>
-      <Navbar />
+    <div className="w-full md:px-6 lg:px-32 relative bg-black">
+      <div className="absolute right-0   w-[250px] h-[250px] blur-xl bg-gradient-to-t z-10 from-[#1B1032]"></div>
+      {/* <Navbar /> */}
       <Hero />
       <Marquee />
       <About />

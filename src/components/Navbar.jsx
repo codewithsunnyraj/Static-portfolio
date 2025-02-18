@@ -3,6 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
+import { FaAlignRight } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="w-full relative z-10  py-2 md:py-7 ">
@@ -11,7 +12,7 @@ const Navbar = () => {
           <h2 className="text-[26px] font-Inter-Sora text-white">@Portfolio</h2>
         </div>
         <div>
-          <ul className="flex gap-6 text-white cursor-pointer text-[16px] font-Inter-Sora">
+          <ul className="lg:flex gap-6 hidden  text-white cursor-pointer text-[16px] font-Inter-Sora">
             <li className="relative group">
               <a
                 href=""
@@ -63,17 +64,20 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center gap-6">
-          <div className="text-white flex cursor-pointer gap-3 text-xl font-semibold">
+          <div className="text-white md:flex hidden cursor-pointer gap-3 text-xl font-semibold">
             <FaXTwitter />
             <FaInstagram />
             <FaLinkedinIn />
             <FaLink />
           </div>
           <div>
-            <button className="rounded-full bg-button hover:duration-300 hover:transition-all font-Inter-Sora py-2 bg-button-bg text-white px-8 ">
+            <button className="rounded-full md:flex hidden bg-button hover:duration-300 hover:transition-all font-Inter-Sora py-2 bg-button-bg text-white px-8 ">
               Let's Talk
             </button>
           </div>
+        </div>
+        <div className="lg:hidden text-white flex">
+          <FaAlignRight size={20} className="text-white cursor-pointer" />
         </div>
       </div>
     </div>
