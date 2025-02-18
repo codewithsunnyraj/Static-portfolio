@@ -3,7 +3,7 @@ import { assets } from "../constant/constant";
 
 const Project = () => {
   return (
-    <div className="py-2 px-4 md:px-0 md:py-24">
+    <div className="py-2 px-4 md:px-0 md:py-24" id="projects">
       <div className="pb-2 md:pb-16">
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-6xl bg-clip-text text-transparent  text-xl">
           My Projects

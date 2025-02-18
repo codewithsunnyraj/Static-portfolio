@@ -3,7 +3,7 @@ import { assets, skills } from "../constant/constant";
 
 const Skills = () => {
   return (
-    <div className="py-4 px-2 md:py-20">
+    <div className="py-4 px-2 md:py-20" id="skill">
       <div>
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-6xl bg-clip-text text-transparent  text-xl">
           My Skills

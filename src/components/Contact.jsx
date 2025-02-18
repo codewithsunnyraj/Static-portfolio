@@ -30,7 +30,7 @@ const Contact = () => {
     reset(); // Form reset karein
   };
   return (
-    <div className="py-6 px-4 md:px-0 md:py-20">
+    <div className="py-6 px-4 md:px-0 md:py-20" id="Contact">
       <div className="grid lg:grid-cols-2 gap-7">
         <div className="px-6 pt-8 pb-10 bg-[#140C1C]">
           <div>
@@ -168,7 +168,7 @@ const Contact = () => {
                 </p>
                 <a
                   href="tel:+91 8936811660"
-                  className="text-white font-Inter-Sora font-bold"
+                  className="text-white font-Inter-Sora "
                 >
                   +91 8936811660
                 </a>
@@ -183,10 +183,10 @@ const Contact = () => {
                   Email
                 </p>
                 <a
-                  href="tel:+91 8936811660"
-                  className="text-white font-Inter-Sora font-bold"
+                  href="mailto:sunnyrajkcb@gmail.com"
+                  className="text-white font-Inter-Sora "
                 >
-                  +91 8936811660
+                  sunnyrajkcb@gmail.com
                 </a>
               </div>
             </div>
@@ -200,7 +200,7 @@ const Contact = () => {
                 </p>
                 <a
                   href="javascript:void(0);"
-                  className="text-white font-Inter-Sora font-bold"
+                  className="text-white font-Inter-Sora "
                 >
                   Bhagwat nagar, kumhrar patna
                 </a>

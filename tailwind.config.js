@@ -9,7 +9,9 @@ export default {
       backgroundImage: {
         "button-bg": "linear-gradient(260deg, #AD13FB 0%, #e43a15 100%)",
       },
+      keyframes: {},
+      animation: {},
     },
+    plugins: [],
   },
-  plugins: [],
 };

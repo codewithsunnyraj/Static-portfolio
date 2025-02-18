@@ -2,7 +2,7 @@ import React from "react";
 
 const Strength = () => {
   return (
-    <div className="px-4 px-lg-0">
+    <div className="px-4 px-lg-0" id="strength">
       <div className="pb-2 md:pb-16">
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-6xl bg-clip-text text-transparent  text-xl">
           My Strengths
@@ -23,13 +23,13 @@ const Strength = () => {
                 01
               </h2>
             </div>
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Research and Analysis
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Creativity
             </h3>
             <p className="text-justify text-slate-500">
-              Research and analysis encompass systematic enquiry and evaluation
-              across various fields, including intelligence, education, and
-              market behavior.
+              I always strive to think outside the box, bringing innovative
+              solutions to challenges and ensuring that my designs and projects
+              stand out with originality.
             </p>
           </div>
         </div>
@@ -43,13 +43,13 @@ const Strength = () => {
                 02
               </h2>
             </div>
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Visual Design
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Communication
             </h3>
             <p className="text-justify text-slate-500">
-              Visual design in tech focuses on creating aesthetically pleasing
-              and user-friendly digital interfaces that effectively communicate
-              a brand's message and enhance the overall user experience
+              Clear and effective communication is key. I excel in conveying
+              ideas, collaborating with teams, and keeping stakeholders informed
+              at every step of a project.
             </p>
           </div>
         </div>
@@ -63,14 +63,13 @@ const Strength = () => {
                 03
               </h2>
             </div>{" "}
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Database Management
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Problem-Solving
             </h3>
             <p className="text-justify text-slate-500">
-              A Database Management System (DBMS) is a software application
-              designed to store, manage, and facilitate access to structured
-              data, allowing users to perform operations such as creating,
-              reading, updating, and deleting data efficiently
+              I thrive in finding efficient solutions to complex problems.
+              Whether it's a design challenge or technical issue, I approach
+              problems logically and creatively.
             </p>
           </div>
         </div>
@@ -84,13 +83,13 @@ const Strength = () => {
                 04
               </h2>
             </div>{" "}
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Generating Leads, Listings and Leverages{" "}
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Adaptability
             </h3>
             <p className="text-justify text-slate-500">
-              Generating leads quickly involves optimizing lead capture pages,
-              scoring leads, and leveraging SEO, LinkedIn prospecting, and CRM
-              tools.
+              I am quick to learn new skills and adapt to changing environments,
+              making sure that I stay up to date with industry trends and
+              technologies.
             </p>
           </div>
         </div>
@@ -104,13 +103,13 @@ const Strength = () => {
                 05
               </h2>
             </div>{" "}
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Flutter Developement
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Teamwork
             </h3>
             <p className="text-justify text-slate-500">
-              Flutter is an open-source UI toolkit developed by Google for
-              building beautiful, natively compiled, multi-platform applications
-              from a single codebase.
+              I value collaboration and teamwork, always working closely with
+              colleagues and clients to ensure we meet goals efficiently and
+              achieve the best results together.
             </p>
           </div>
         </div>
@@ -124,14 +123,13 @@ const Strength = () => {
                 06
               </h2>
             </div>{" "}
-            <h3 className="text-white text-2xl font-Inter-Sora pt-12 pb-3">
-              Event Management
+            <h3 className="text-white text-2xl font-Inter-Sora pt-10 pb-3">
+              Time Management
             </h3>
             <p className="text-justify text-slate-500">
-              Event management is the comprehensive process of planning,
-              organizing, and executing events, encompassing all aspects from
-              budgeting and venue selection to marketing and logistics, to
-              ensure successful outcomes and memorable experiences
+              I manage my time effectively by prioritizing tasks, staying
+              organized, and meeting deadlines, which ensures that projects are
+              delivered on time and within budget.
             </p>
           </div>
         </div>

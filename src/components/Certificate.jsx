@@ -2,7 +2,7 @@ import React from "react";
 import { assets, certificate } from "../constant/constant";
 const Certificate = () => {
   return (
-    <div className="py-4 px-4  md:py-10">
+    <div className="py-4 px-4  md:py-10" id="Certification">
       <div className="pb-2 md:pb-16">
         <h2 className="font-Inter-Sora text-center font-semibold bg-gradient-to-r from-purple-500 to-pink-500 md:text-2xl lg:text-6xl bg-clip-text text-transparent  text-xl">
           Certificates & More
