@@ -14,7 +14,7 @@ const Project = () => {
           <a href="https://yssteps.com/" target="_blank">
             <img
               src={assets.yss}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
@@ -32,7 +32,7 @@ const Project = () => {
           <a href="https://primetaxiservice.com/">
             <img
               src={assets.taxi}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
@@ -50,7 +50,7 @@ const Project = () => {
           <a href="https://caplus.in/" target="_blank">
             <img
               src={assets.caplus}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
@@ -68,7 +68,7 @@ const Project = () => {
           <a href="https://skcandfamilyenterprises.in/" target="_blank">
             <img
               src={assets.skc}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
@@ -87,7 +87,7 @@ const Project = () => {
           <a href="https://yogaherbs.in/" target="_blank">
             <img
               src={assets.yoga}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
@@ -105,7 +105,7 @@ const Project = () => {
           <a href="https://prityam.com/" target="_blank">
             <img
               src={assets.prityam}
-              className="ease-in-out group-hover:scale-110 duration-300 transition-transform"
+              className="ease-in-out blur-sm hover:blur-0 group-hover:scale-110 duration-300 transition-transform"
               alt=""
             />
           </a>
